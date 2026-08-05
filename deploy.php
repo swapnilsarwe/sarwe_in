@@ -34,7 +34,7 @@ host('production')
     ->setHostname('178.128.120.164')          // ← droplet IP or domain
     ->setRemoteUser('root')                   // ← SSH user (root, or 'deployer' if you set one up)
     ->setIdentityFile('~/.ssh/id_rsa')        // ← your local SSH private key
-    ->set('deploy_path', '/var/www/sarwe');
+    ->set('deploy_path', '/var/www/{{application}}');
 
 
 // ═══════════════════════════════════════════════════════════════
