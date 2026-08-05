@@ -21,8 +21,8 @@ require 'recipe/laravel.php';
 //  1. PROJECT  — change these per app
 // ═══════════════════════════════════════════════════════════════
 
-set('application', 'myapp');                          // ← app name used in add-laravel-app.sh
-set('repository',  'git@github.com:you/myapp.git');   // ← your git repo (SSH URL)
+set('application', 'sarwe');                          // ← app name used in add-laravel-app.sh
+set('repository',  'git@github.com:swapnilsarwe/sarwe_in.git');   // ← your git repo (SSH URL)
 set('branch',      'main');                           // ← branch to deploy
 
 
@@ -31,10 +31,10 @@ set('branch',      'main');                           // ← branch to deploy
 // ═══════════════════════════════════════════════════════════════
 
 host('production')
-    ->setHostname('YOUR_DROPLET_IP')          // ← droplet IP or domain
+    ->setHostname('178.128.120.164')          // ← droplet IP or domain
     ->setRemoteUser('root')                   // ← SSH user (root, or 'deployer' if you set one up)
     ->setIdentityFile('~/.ssh/id_rsa')        // ← your local SSH private key
-    ->set('deploy_path', '/var/www/{{application}}');
+    ->set('deploy_path', '/var/www/sarwe');
 
 
 // ═══════════════════════════════════════════════════════════════
