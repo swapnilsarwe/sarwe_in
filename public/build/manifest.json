@@ -1,0 +1,53 @@
+{
+  "_fonts-CNIKuRxE.css": {
+    "file": "assets/fonts-CNIKuRxE.css",
+    "src": "_fonts-CNIKuRxE.css"
+  },
+  "_fredoka-500-normal-B0JifZgm.woff2": {
+    "file": "assets/fredoka-500-normal-B0JifZgm.woff2",
+    "src": "_fredoka-500-normal-B0JifZgm.woff2"
+  },
+  "_fredoka-500-normal-BL692wg7.woff": {
+    "file": "assets/fredoka-500-normal-BL692wg7.woff",
+    "src": "_fredoka-500-normal-BL692wg7.woff"
+  },
+  "_fredoka-600-normal-C4zohCW5.woff2": {
+    "file": "assets/fredoka-600-normal-C4zohCW5.woff2",
+    "src": "_fredoka-600-normal-C4zohCW5.woff2"
+  },
+  "_fredoka-600-normal-CcrEjrB4.woff": {
+    "file": "assets/fredoka-600-normal-CcrEjrB4.woff",
+    "src": "_fredoka-600-normal-CcrEjrB4.woff"
+  },
+  "_nunito-400-normal-DKg4f3fz.woff": {
+    "file": "assets/nunito-400-normal-DKg4f3fz.woff",
+    "src": "_nunito-400-normal-DKg4f3fz.woff"
+  },
+  "_nunito-400-normal-r8SDr6Up.woff2": {
+    "file": "assets/nunito-400-normal-r8SDr6Up.woff2",
+    "src": "_nunito-400-normal-r8SDr6Up.woff2"
+  },
+  "_nunito-600-normal-Br8yIETf.woff2": {
+    "file": "assets/nunito-600-normal-Br8yIETf.woff2",
+    "src": "_nunito-600-normal-Br8yIETf.woff2"
+  },
+  "_nunito-600-normal-Cd0eNu1l.woff": {
+    "file": "assets/nunito-600-normal-Cd0eNu1l.woff",
+    "src": "_nunito-600-normal-Cd0eNu1l.woff"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-CqswycYX.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-BvRk9kiK.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
